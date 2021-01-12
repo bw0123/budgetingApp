@@ -78,7 +78,7 @@ body {
 }
 
 .budget__expenses {
-  background-color: #f7261f;
+  background-color: #1ff7af50;
 }
 
 .budget__income--text,
@@ -293,7 +293,7 @@ h2 {
 .unpaid {
   background-color: #ffdad9 !important;
   cursor: pointer;
-  color: #ff5049;
+  color: #006400;
 }
 
 .unpaid .item__percentage {
