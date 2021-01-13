@@ -19,7 +19,7 @@ html {
 
 body {
   color: #927c54;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Merriweather', serif;
   font-size: 17.5px;
   position: relative;
   height: inherit;
@@ -174,7 +174,7 @@ body {
   font-size: 38px;
   background: none;
   border: none;
-  color: #fff;
+  color: #9cd6ad;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
