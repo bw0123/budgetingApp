@@ -75,6 +75,7 @@ body {
 .budget__expenses {
   padding: 12px;
   text-transform: uppercase;
+  transition-duration: 0.3s;
 }
 
 .budget__income {
@@ -82,8 +83,16 @@ body {
   background-color: #9cd6ad;
 }
 
+.budget__income:hover {
+  background-color: #00af91;
+}
+
 .budget__expenses {
-  background-color: #f16561;
+  background-color: #ff8585;
+}
+
+.budget__expenses:hover {
+  background-color: #ff4646;
 }
 
 .budget__income--text,
