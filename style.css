@@ -329,6 +329,7 @@ h2 {
   color: #927c54;
   padding: 12px;
   transition-duration: 0.4s;
+  border-radius: 4px;
 }
 .clear-button:hover {
     background-color: #f16561;
