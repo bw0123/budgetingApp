@@ -66,25 +66,21 @@
 
     <div class="container clearfix">
       <center>
-	<button onclick="clearEverything()" class="clear-button">	 
-	  <i class="fa fa-trash-o" aria-hidden="true">&nbsp Clear all</button></i>
+	      <button onclick="clearEverything()" class="clear-button">	 
+	      <i class="fa fa-trash-o" aria-hidden="true">&nbsp Clear all</button></i>
       </center>
 
       <div class="income">
         <h2 class="income__title">Income &nbsp <i class="fa fa-arrow-up" aria-hidden="true"></i></h2>
 
-
         <div class="income__list">
-          
         </div>
       </div>
 
       <div class="expenses">
         <h2 class="expenses__title">Expenses &nbsp <i class="fa fa-arrow-down" aria-hidden="true"></i></h2>
 
-
         <div class="expenses__list">
-         
         </div>
       </div>
     </div>
@@ -190,17 +186,15 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	}]
 });
 chart.render();
-
 }
-</script>
-</head>
-<body>
-<div id="chartContainer" style="height: 350px; width: 99%;"></div>
-<script type="text/javascript"src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  </script>
+  </head>
 
+    <body>
+      <div id="chartContainer" style="height: 350px; width: 99%;"></div>
+      <script type="text/javascript"src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </body>
 
+    <script src="app.js"></script>
   </body>
-
-  <script src="app.js"></script>
-</body>
 </html>
