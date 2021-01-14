@@ -41,7 +41,7 @@ body {
 
 .top {
   height: 40%;
-  background-image: url("background.jpg");
+  background-image: url("img/background.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -54,6 +54,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
+  padding: 24px
 }
 
 .budget__title {
