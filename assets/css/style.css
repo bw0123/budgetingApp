@@ -54,13 +54,17 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
+<<<<<<< HEAD:assets/css/style.css
   padding: 24px
+=======
+  margin-bottom: 5px;
+>>>>>>> b0ec22e541be39a633ed71b11b49ae2b78837514:style.css
 }
 
 .budget__title {
-  font-size: 36px;
+  font-size: 27px;
   text-align: center;
-  margin-bottom: 03px;
+  margin-top: 60px;
   font-weight: 300;
 }
 
@@ -68,19 +72,18 @@ body {
   font-weight: 300;
   font-size: 44px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   letter-spacing: 2px;
 }
 
 .budget__income,
 .budget__expenses {
-  padding: 12px;
+  padding: 10px;
   text-transform: uppercase;
   transition-duration: 0.3s;
 }
 
 .budget__income {
-  margin-bottom: 10px;
   background-color: #9cd6ad;
 }
 
@@ -90,6 +93,7 @@ body {
 
 .budget__expenses {
   background-color: #ff8585;
+  margin-bottom: 0px;
 }
 
 .budget__expenses:hover {
@@ -149,6 +153,7 @@ body {
   margin-right: 10px;
   font-weight: 300;
   transition: border 0.3s;
+  border-radius: 4px;
 }
 
 .add__description,
@@ -327,10 +332,17 @@ h2 {
 .clear-button {
   text-transform: uppercase;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: 0;
   background-color: white;
+<<<<<<< HEAD:assets/css/style.css
   color: #bda882;
   padding: 12px;
+=======
+  color: #927c54;
+  padding: 5px;
+  border: 0;
+  border-radius: 4px;
+  transform: translateX(-180px);
+>>>>>>> b0ec22e541be39a633ed71b11b49ae2b78837514:style.css
   transition-duration: 0.4s;
 }
 .clear-button:hover {
