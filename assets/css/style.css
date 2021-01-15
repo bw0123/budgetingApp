@@ -333,16 +333,13 @@ h2 {
   text-transform: uppercase;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
-<<<<<<< HEAD:assets/css/style.css
   color: #bda882;
   padding: 12px;
-=======
   color: #927c54;
   padding: 5px;
   border: 0;
   border-radius: 4px;
   transform: translateX(-180px);
->>>>>>> b0ec22e541be39a633ed71b11b49ae2b78837514:style.css
   transition-duration: 0.4s;
 }
 .clear-button:hover {
